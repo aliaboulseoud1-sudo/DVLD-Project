@@ -66,7 +66,7 @@ namespace DVLD_Buisness
             _Mode = enMode.Update;
         }
 
-        public bool _AddNewPerson()
+        private bool _AddNewPerson()
         {
             try
             {
