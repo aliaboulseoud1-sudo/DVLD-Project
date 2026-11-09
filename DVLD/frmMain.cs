@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DVLD.Login;
+using DVLD.User;
+using System;
 using System.Windows.Forms;
 
 namespace DVLD
@@ -103,7 +98,8 @@ namespace DVLD
 
         private void employeesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            _ShowUnderConstructionMessage();
+            frmListUsers frm = new frmListUsers();
+            frm.ShowDialog();
         }
 
         private void currentUserInfoToolStripMenuItem_Click(object sender, EventArgs e)

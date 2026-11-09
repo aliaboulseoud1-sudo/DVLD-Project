@@ -3,8 +3,6 @@ using DVLD_Buisness;
 using System;
 using System.Data;
 using System.Windows.Forms;
-using static DVLD_Buisness.clsPerson;
-
 
 namespace DVLD
 {
